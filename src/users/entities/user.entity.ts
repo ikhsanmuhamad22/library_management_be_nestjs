@@ -7,6 +7,11 @@ import {
   OneToMany,
 } from 'typeorm';
 
+export enum UserRole {
+  ADMIN = 'admin',
+  MEMBER = 'member',
+}
+
 @Entity()
 export class User {
   @PrimaryGeneratedColumn()
