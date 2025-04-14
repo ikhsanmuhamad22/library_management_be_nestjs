@@ -1,7 +1,7 @@
 // src/users/users.service.ts
 import { Injectable, Param } from '@nestjs/common';
-import { User } from './domain/entities/user.entity';
-import { UserRepository } from './infrastucture/repositories/user-repository.interfaces';
+import { User } from './entities/user.entity';
+import { UserRepository } from './repositories/user-repository.interfaces';
 
 @Injectable()
 export class UsersService {
